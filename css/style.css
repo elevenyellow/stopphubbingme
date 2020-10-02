@@ -25,7 +25,8 @@
 body {
 	font-family: 'Futura PT medium';
 	font-size: 16px;
-	line-height: 1.5;
+  line-height: 1.5;
+  background: #000;
 }
 /* Reset style */
 * {
@@ -51,12 +52,12 @@ ul, li {
 #Banner {
 	width: 0;
 	height: 100vh;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e64741+0,e6255d+100,7db9e8+100 */
-	background: #e64741; /* Old browsers */
-	background: -moz-linear-gradient(top, #e64741 0%, #e6255d 100%, #7db9e8 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #e64741 0%,#e6255d 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #e64741 0%,#e6255d 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e64741', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#594cda+0,3359d9+100,7db9e8+100 */
+	background: #594cda; /* Old browsers */
+	background: -moz-linear-gradient(top, #594cda 0%, #3359d9 100%, #7db9e8 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #594cda 0%,#3359d9 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #594cda 0%,#3359d9 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#594cda', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
 	overflow: hidden;
 	position: relative;
 }
@@ -104,10 +105,11 @@ body.active #Banner h1  {
   -ms-transform: translateY(-50%);
   opacity: 0;
 }
+
 #Banner .blacksection::before {
   width: 2000px;
   height: 0;
-  background-color: #000;
+  background-color: black;
   position: absolute;
   right: -1000px;
   transform: rotate(124deg);
@@ -172,13 +174,13 @@ body.active .mscroll {
 }
 #sidebar-wrapper .sidebar-nav li a:hover {
   text-decoration: none;
-  color: #e6275c;
+  color: #3359d9;
   transition: all 0.3s;
 }
 #sidebar-wrapper .sidebar-nav li a:active, .sidebar-nav li a:focus {
   text-decoration: none;
   text-decoration: none;
-  color: #e6275c;
+  color: #3359d9;
   transition: all 0.3s;
 }
 #sidebar-wrapper .sidebar-nav>.sidebar-brand {
@@ -226,7 +228,7 @@ body.active .mscroll {
   color: #fff;
 }
 .menu-toggle:hover, .menu-toggle.active {
-  background: #e6275c;
+  background: #3359d9;
 }
 /* Banner style ends here */
 /* Our Digital services style begins here */
@@ -235,7 +237,7 @@ body.active .mscroll {
 	text-align: center;
 }
 #Services h2 {
-	color: #000;
+	color: white;
 	font: 68px/125% 'Futura PT book';
 	margin-bottom: 90px;
 }
@@ -245,14 +247,14 @@ body.active .mscroll {
 	padding-bottom: 30px;
 }
 #Services .each-services h3 {
-	color: #000;
+	color: white;
 	font-size: 30px;
 	line-height: 110%;
 	font-family: 'Futura PT book';
 	margin-bottom: 20px;
 }
 #Services .each-services p {
-	color: #000;
+	color: white;
 	font-size: 18px;
 	line-height: 120%;
 	font-family: 'Futura PT book';
@@ -311,13 +313,13 @@ body.active .mscroll {
 	background-color: #ececec;
 }
 #OurBlog h2 {
-	color: #000;
+	color: black;
 	font: 68px/125% 'Futura PT book';
 	margin-bottom: 20px;
 	text-align: center;
 }
 #OurBlog p {
-	color: #000;
+	color: black;
 	font: 18px/125% 'Futura PT book';
 	margin-bottom: 20px;
 	text-align: center;
@@ -345,7 +347,7 @@ body.active .mscroll {
 }
 #OurBlog .each-block .icon {
   float: left;
-  background-color: #e6275c;
+  background-color: #3359d9;
   padding: 8px 10px 4px;
   margin-right: 16px;
 }
@@ -366,7 +368,7 @@ body.active .mscroll {
     content: "";
     width: 36px;
     height: 2px;
-    background-color: #000;
+    background-color: red;
     position: absolute;
     left: 0;
     top: 6px;
@@ -384,7 +386,7 @@ body.active .mscroll {
     content: "";
     width: 14px;
     height: 14px;
-    background-color: #e6275c;
+    background-color: #3359d9;
     position: absolute;
     border-radius: 50%;
     right: -34%;
@@ -399,7 +401,7 @@ body.active .mscroll {
 	text-align: center;
 }
 #OurBlog .learnmore a {
-    background-color: #e6275c;
+    background-color: #3359d9;
     color: #fff;
     padding: 20px 30px;
     font: 700 24px/100% 'Futura PT book';
@@ -437,13 +439,13 @@ body.active .mscroll {
 	padding: 60px 0 90px 0;
 }
 #Testimonials h2 {
-	color: #000;
+	color: white;
 	font: 68px/125% 'Futura PT book';
 	margin-bottom: 20px;
 	text-align: center;
 }
 #Testimonials p {
-	color: #000;
+	color: white;
 	font: 18px/125% 'Futura PT book';
 	margin-bottom: 20px;
 	text-align: center;
@@ -482,7 +484,7 @@ body.active .mscroll {
 #Testimonials span {
 	display: inline-block;
 	font: 70px/125% 'Futura PT book';
-	color: #f86b74;
+	color: #3359d9;
 }
 #Testimonials .title {
 	display: inline-block;
@@ -492,17 +494,17 @@ body.active .mscroll {
 }
 #Testimonials .title h4 {
 	font: 30px/125% 'Futura PT book';
-	color: #000;
+	color: white;
 	margin-bottom: 5px;
 }
 #Testimonials .title h6 {
 	font: 18px/125% 'Futura PT book';
-	color: #000;
+	color: white;
 	margin-bottom: 0;
 }
 #Testimonials .latest-testimonials p {
 	text-align: left;
-	color: #000;
+	color: white;
 }
 #Testimonials .each-testi p {
 	color: #fff;
@@ -533,7 +535,7 @@ body.active .mscroll {
 	margin: 0;
 }
 #Testimonials .testi-wrapper .latest-testimonials p {
-	color: #000;
+	color: white;
 }
 /* Testimonials style ends here */
 /* Footer */
@@ -549,7 +551,7 @@ body.active .mscroll {
 }
 #Contact a.email-btn {
     color: #fff;
-    background-color: #f46674;
+    background-color: #3359d9;
     padding: 12px 30px;
     display: inline-block;
     border-radius: 6px;
