@@ -49,6 +49,10 @@ ul, li {
   left: 16%;
   opacity: 0;
 }
+#Banner .logo img {
+  width: 100px;
+}
+
 #Banner {
 	width: 0;
 	height: 100vh;
@@ -259,10 +263,30 @@ body.active .mscroll {
 	line-height: 120%;
 	font-family: 'Futura PT book';
 }
+
+
+
 /* Our Digital services style ends here */
 /* Our work begin */
+#WeHatePhubbing {
+  color: white;
+  background-color: #1d252e;
+  padding: 80px 0;
+  border-top: 10px solid black;
+  text-align: center;
+} 
+
+#WeHatePhubbing h2 {
+  font-size: 70px;
+}
+
+#WeHatePhubbing p {
+  font-size: 30px;
+}
+
+
 #OurWork {
-  background-color: #414143;
+  /* background-color: #333f4f; */
   padding: 60px 0;
 }
 #OurWork h2 {
@@ -272,7 +296,7 @@ body.active .mscroll {
 	margin-bottom: 40px;
 }
 #OurWork .grey-box {
-  background-color: #4f4f4f;
+  background-color: rgba(255,255,255,0.1);
   padding: 20px;
   height: 300px;
   position: relative;
