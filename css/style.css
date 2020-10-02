@@ -52,11 +52,11 @@ ul, li {
 #Banner {
 	width: 0;
 	height: 100vh;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#594cda+0,3359d9+100,7db9e8+100 */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#594cda+0,d500f9+100,7db9e8+100 */
 	background: #594cda; /* Old browsers */
-	background: -moz-linear-gradient(top, #594cda 0%, #3359d9 100%, #7db9e8 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #594cda 0%,#3359d9 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #594cda 0%,#3359d9 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: -moz-linear-gradient(top, #594cda 0%, #d500f9 100%, #7db9e8 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #594cda 0%,#d500f9 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #594cda 0%,#d500f9 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#594cda', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
 	overflow: hidden;
 	position: relative;
@@ -153,7 +153,7 @@ body.active .mscroll {
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #333f4f;
+  background: #d500f9;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 .sidebar-nav {
@@ -174,13 +174,13 @@ body.active .mscroll {
 }
 #sidebar-wrapper .sidebar-nav li a:hover {
   text-decoration: none;
-  color: #3359d9;
+  color: #d500f9;
   transition: all 0.3s;
 }
 #sidebar-wrapper .sidebar-nav li a:active, .sidebar-nav li a:focus {
   text-decoration: none;
   text-decoration: none;
-  color: #3359d9;
+  color: #d500f9;
   transition: all 0.3s;
 }
 #sidebar-wrapper .sidebar-nav>.sidebar-brand {
@@ -228,7 +228,7 @@ body.active .mscroll {
   color: #fff;
 }
 .menu-toggle:hover, .menu-toggle.active {
-  background: #3359d9;
+  background: #d500f9;
 }
 /* Banner style ends here */
 /* Our Digital services style begins here */
@@ -347,7 +347,7 @@ body.active .mscroll {
 }
 #OurBlog .each-block .icon {
   float: left;
-  background-color: #3359d9;
+  background-color: #d500f9;
   padding: 8px 10px 4px;
   margin-right: 16px;
 }
@@ -386,7 +386,7 @@ body.active .mscroll {
     content: "";
     width: 14px;
     height: 14px;
-    background-color: #3359d9;
+    background-color: #d500f9;
     position: absolute;
     border-radius: 50%;
     right: -34%;
@@ -401,7 +401,7 @@ body.active .mscroll {
 	text-align: center;
 }
 #OurBlog .learnmore a {
-    background-color: #3359d9;
+    background-color: #d500f9;
     color: #fff;
     padding: 20px 30px;
     font: 700 24px/100% 'Futura PT book';
@@ -484,7 +484,7 @@ body.active .mscroll {
 #Testimonials span {
 	display: inline-block;
 	font: 70px/125% 'Futura PT book';
-	color: #3359d9;
+	color: #d500f9;
 }
 #Testimonials .title {
 	display: inline-block;
@@ -551,7 +551,7 @@ body.active .mscroll {
 }
 #Contact a.email-btn {
     color: #fff;
-    background-color: #3359d9;
+    background-color: #d500f9;
     padding: 12px 30px;
     display: inline-block;
     border-radius: 6px;
