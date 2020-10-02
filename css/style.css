@@ -288,8 +288,7 @@ body.active .mscroll {
 #OurWork {
   /* background-color: #333f4f; */
   padding: 60px 0;
-} 
-
+}
 #OurWork h2 {
 	color: #fff;
 	text-align: center;
@@ -363,11 +362,19 @@ body.active .mscroll {
     top: 0;
 }
 #OurBlog .each-block.two {
-    top: 40%;
+    top: 25%;
     right: 0;
 }
 #OurBlog .each-block.three {
-    top: 78%;
+    left: 0;
+		top: 50%;
+}
+#OurBlog .each-block.four {
+    top: 75%;
+    right: 0;
+}
+#OurBlog .each-block.five {
+    top: 100%;
     left: 0;
 }
 #OurBlog .each-block .icon {
@@ -419,6 +426,10 @@ body.active .mscroll {
     transform: translateY(-50%);
 }
 #OurBlog .each-block.two:before {
+    right: auto;
+    left: -34%;
+}
+#OurBlog .each-block.four:before {
     right: auto;
     left: -34%;
 }
@@ -616,7 +627,7 @@ body.active .mscroll {
 .social-icons li {
   display: inline-block;
   margin: 0 16px;
-} 
+}
 .social-icons li a {
 	display: block;
 }
